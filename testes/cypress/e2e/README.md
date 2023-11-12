@@ -21,10 +21,10 @@ Atente-se para as seguintes informações:
     ✅  Cadastrar empresa
     ✅  Cadastrar vaga incorreta
     ✅  Navegação para a página de informações
-    ✅  Navegação para a página de contato'
+    ✅  Navegação para a página de contato
     ```
 
-### Execução dos testes 🧑‍💻
+### Execução dos testes 🧑‍💻git 
 - Após clonar o repositório, pelo terminal, abra a pasta "Testes" e execute o comando a seguir: 
     ```
     ./node_modules/.bin/cypress open
