@@ -20,11 +20,11 @@ Atente-se para as seguintes informações:
     ✅  Tutorial para baixar app de notas
     ✅  Cadastrar empresa
     ✅  Cadastrar vaga incorreta
-    ✅  Mudar linguagem na tela inicial, de português para inglês.
-    ✅  Entrando como visitante e tendo acesso bloqueado ao perfil de professor
+    ✅  Navegação para a página de informações
+    ✅  Navegação para a página de contato'
     ```
 
-### Execução dos testes 🧪
+### Execução dos testes 🧑‍💻
 - Após clonar o repositório, pelo terminal, abra a pasta "Testes" e execute o comando a seguir: 
     ```
     ./node_modules/.bin/cypress open
