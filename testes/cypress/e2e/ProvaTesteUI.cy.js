@@ -1,12 +1,12 @@
 describe('Criando cenário de teste para o site XYZ', () => {
-  it.skip("Caso de teste: Cadastrar login", () => {
+  it("Caso de teste: Criar login", () => {
     criarLogin(false);
   });
 
-  it.skip("Caso de teste: Deletando usuário criado com sucesso", () => {
+  it("Caso de teste: Deletando usuário criado com sucesso", () => {
     criarLogin(true);
   });
-  it.skip("Caso de teste: Fazendo login com user do site", () => {
+  it("Caso de teste: Fazendo login com user do site", () => {
     fazerLogin();
   });
 
@@ -30,15 +30,15 @@ function criarLogin(flag) {
   let postCode = horas + minutos + seg;
 
   cy.visit('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager');
-  cy.wait(8000);
+  cy.wait(6000);
   cy.get('[ng-class="btnClass1"]').click();
   cy.get(':nth-child(1) > .form-control').type(nome);
   cy.get(':nth-child(2) > .form-control').type(sobrenome);
   cy.get(':nth-child(3) > .form-control').type(postCode);
   cy.get('form.ng-dirty > .btn').click();
-  cy.wait(2000);
+  cy.wait(1000);
   cy.get('[ng-class="btnClass3"]').click();
-  cy.wait(3000);
+  cy.wait(1000);
   cy.get('.marTop').should('contain.text', nome);
 
   if (flag === true) {
@@ -49,7 +49,7 @@ function criarLogin(flag) {
 }
 function fazerLogin(){
     cy.visit('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer')
-    cy.wait(8000);  
+    cy.wait(6000);  
     cy.get('#userSelect').select('Harry Potter')
     cy.get('form.ng-valid > .btn').click()
     cy.get('.fontBig').should('contain.text', 'Harry Potter')
