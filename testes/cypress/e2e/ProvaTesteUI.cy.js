@@ -6,7 +6,18 @@ describe('Criando cenário de teste para o site XYZ', () => {
   it.skip("Caso de teste: Deletando usuário criado com sucesso", () => {
     criarLogin(true);
   });
+  it.skip("Caso de teste: Fazendo login com user do site", () => {
+    fazerLogin();
+  });
 
+  it("Caso de teste: Sacando valor insuficiente", () => {
+    fazerLogin();
+    cy.get('[ng-class="btnClass3"]').click()
+    cy.get('.form-control').type('200')
+    cy.get('form.ng-dirty > .btn').click()
+    cy.get('.error').should('have.text', 'Transaction Failed. You can not withdraw amount more than the balance.')
+
+  });
 
 });
 
@@ -36,4 +47,11 @@ function criarLogin(flag) {
     cy.get('.marTop').should('not.contain.text', nome);
   }
 }
-
+function fazerLogin(){
+    cy.visit('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer')
+    cy.wait(8000);  
+    cy.get('#userSelect').select('Harry Potter')
+    cy.get('form.ng-valid > .btn').click()
+    cy.get('.fontBig').should('contain.text', 'Harry Potter')
+  
+  }
