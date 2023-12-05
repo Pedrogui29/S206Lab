@@ -27,7 +27,7 @@ Utilizando todo conhecimento obtido durante as aulas, desenvolva no mínimo 3 ca
     ```
 - Após abrir o cypress com o comando acima, execute os teste com o comando abaixo:
     ```
-    ./node_modules/.bin/cypress run --spec 'cypress/e2e/TesteUI.cy.js/'
+    ./node_modules/.bin/cypress run --spec 'cypress/e2e/ProvaTesteUI.cy.js/'
     ```
 
 - Após a execucao dos testes, o relatório ficará salvo na pasta: 
