@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.gorest.PokeProvaRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.226 s <<< FAILURE! - in aula_inatel.gorest.PokeProvaRunner
+testPokemon  Time elapsed: 0.225 s  <<< ERROR!
+java.lang.RuntimeException: not found: aula_inatel/gorest/gorest.feature
+

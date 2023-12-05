@@ -14,7 +14,7 @@ describe('Criando cenario de teste para o site globalsqa', () =>{
   })
 
 
-  it("Caso de teste: Registrando um usuário no site com sucesso", ()=>{
+  it ("Caso de teste: Registrando um usuário no site com sucesso", ()=>{
     cy.visit('https://globalsqa.com/angularJs-protractor/registration-login-example/#/register')
     cy.get('#firstName').type('inatel')
     cy.get('#Text1').type('inatel')

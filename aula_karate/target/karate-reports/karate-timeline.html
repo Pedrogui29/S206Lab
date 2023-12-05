@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"aula_inatel\/countries\/countries[1:6]","start":1701729845366,"end":1701729846310,"title":"aula_inatel\/countries\/countries[1:6] 19:44:05.366-19:44:06.310 Buscar um país pelo nome"},{"id":2,"group":1,"content":"aula_inatel\/countries\/countries[2:12]","start":1701729846324,"end":1701729846724,"title":"aula_inatel\/countries\/countries[2:12] 19:44:06.324-19:44:06.724 Buscar um país pelo código alfa-3"},{"id":3,"group":1,"content":"aula_inatel\/countries\/countries[3:18]","start":1701729846732,"end":1701729847141,"title":"aula_inatel\/countries\/countries[3:18] 19:44:06.732-19:44:07.141 Buscar um país por código de chamada inexistente"},{"id":4,"group":1,"content":"aula_inatel\/countries\/countries[4:23]","start":1701729847152,"end":1701729847577,"title":"aula_inatel\/countries\/countries[4:23] 19:44:07.152-19:44:07.577 Buscar um país com nome inexistente"},{"id":5,"group":1,"content":"aula_inatel\/countries\/countries[5:28]","start":1701729847588,"end":1701729848654,"title":"aula_inatel\/countries\/countries[5:28] 19:44:07.588-19:44:08.654 Obter todos os países"},{"id":6,"group":1,"content":"aula_inatel\/countries\/countries[6:34]","start":1701729848660,"end":1701729849066,"title":"aula_inatel\/countries\/countries[6:34] 19:44:08.660-19:44:09.066 Obter países que falam Português"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

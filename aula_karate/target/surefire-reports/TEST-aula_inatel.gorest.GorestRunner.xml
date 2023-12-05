@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="aula_inatel.gorest.GorestRunner" time="3.666" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/pedrooliveira/S206Lab/aula_karate/target/test-classes:/Users/pedrooliveira/S206Lab/aula_karate/target/classes:/Users/pedrooliveira/.m2/repository/com/intuit/karate/karate-junit5/1.0.1/karate-junit5-1.0.1.jar:/Users/pedrooliveira/.m2/repository/com/intuit/karate/karate-core/1.0.1/karate-core-1.0.1.jar:/Users/pedrooliveira/.m2/repository/org/graalvm/js/js-scriptengine/21.0.0/js-scriptengine-21.0.0.jar:/Users/pedrooliveira/.m2/repository/org/graalvm/sdk/graal-sdk/21.0.0/graal-sdk-21.0.0.jar:/Users/pedrooliveira/.m2/repository/org/graalvm/js/js/21.0.0/js-21.0.0.jar:/Users/pedrooliveira/.m2/repository/org/graalvm/regex/regex/21.0.0/regex-21.0.0.jar:/Users/pedrooliveira/.m2/repository/org/graalvm/truffle/truffle-api/21.0.0/truffle-api-21.0.0.jar:/Users/pedrooliveira/.m2/repository/com/ibm/icu/icu4j/67.1/icu4j-67.1.jar:/Users/pedrooliveira/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/pedrooliveira/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/pedrooliveira/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/pedrooliveira/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/Users/pedrooliveira/.m2/repository/com/jayway/jsonpath/json-path/2.5.0/json-path-2.5.0.jar:/Users/pedrooliveira/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/pedrooliveira/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/pedrooliveira/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/pedrooliveira/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/pedrooliveira/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/pedrooliveira/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/Users/pedrooliveira/.m2/repository/de/siegmar/fastcsv/1.0.4/fastcsv-1.0.4.jar:/Users/pedrooliveira/.m2/repository/info/picocli/picocli/4.5.2/picocli-4.5.2.jar:/Users/pedrooliveira/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/pedrooliveira/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/pedrooliveira/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/pedrooliveira/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/pedrooliveira/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/pedrooliveira/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/pedrooliveira/S206Lab/aula_karate/target/surefire/surefirebooter11463843390410381849.jar /Users/pedrooliveira/S206Lab/aula_karate/target/surefire 2023-12-04T10-49-31_083-jvmRun1 surefire5937559996979979458tmp surefire_03688395745538610442tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="GorestRunner"/>
+    <property name="surefire.test.class.path" value="/Users/pedrooliveira/S206Lab/aula_karate/target/test-classes:/Users/pedrooliveira/S206Lab/aula_karate/target/classes:/Users/pedrooliveira/.m2/repository/com/intuit/karate/karate-junit5/1.0.1/karate-junit5-1.0.1.jar:/Users/pedrooliveira/.m2/repository/com/intuit/karate/karate-core/1.0.1/karate-core-1.0.1.jar:/Users/pedrooliveira/.m2/repository/org/graalvm/js/js-scriptengine/21.0.0/js-scriptengine-21.0.0.jar:/Users/pedrooliveira/.m2/repository/org/graalvm/sdk/graal-sdk/21.0.0/graal-sdk-21.0.0.jar:/Users/pedrooliveira/.m2/repository/org/graalvm/js/js/21.0.0/js-21.0.0.jar:/Users/pedrooliveira/.m2/repository/org/graalvm/regex/regex/21.0.0/regex-21.0.0.jar:/Users/pedrooliveira/.m2/repository/org/graalvm/truffle/truffle-api/21.0.0/truffle-api-21.0.0.jar:/Users/pedrooliveira/.m2/repository/com/ibm/icu/icu4j/67.1/icu4j-67.1.jar:/Users/pedrooliveira/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/pedrooliveira/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/pedrooliveira/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/pedrooliveira/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/Users/pedrooliveira/.m2/repository/com/jayway/jsonpath/json-path/2.5.0/json-path-2.5.0.jar:/Users/pedrooliveira/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/pedrooliveira/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/pedrooliveira/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/pedrooliveira/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/pedrooliveira/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/pedrooliveira/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/Users/pedrooliveira/.m2/repository/de/siegmar/fastcsv/1.0.4/fastcsv-1.0.4.jar:/Users/pedrooliveira/.m2/repository/info/picocli/picocli/4.5.2/picocli-4.5.2.jar:/Users/pedrooliveira/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/pedrooliveira/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/pedrooliveira/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/pedrooliveira/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/pedrooliveira/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/pedrooliveira/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/pedrooliveira"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/pedrooliveira/S206Lab/aula_karate"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/pedrooliveira/S206Lab/aula_karate/target/surefire/surefirebooter11463843390410381849.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.1"/>
+    <property name="user.name" value="pedrooliveira"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/pedrooliveira/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/yj/f8nhbl7x1hx0j8_8_b6ssfyc0000gn/T/"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="/Users/pedrooliveira/S206Lab/aula_karate"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/pedrooliveira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testGorest[1][1]" classname="aula_inatel.gorest.GorestRunner" time="0.839"/>
+  <testcase name="testGorest[1][2]" classname="aula_inatel.gorest.GorestRunner" time="0.087"/>
+  <testcase name="testGorest[1][3]" classname="aula_inatel.gorest.GorestRunner" time="0.815"/>
+  <testcase name="testGorest[1][4]" classname="aula_inatel.gorest.GorestRunner" time="0.077"/>
+  <testcase name="testGorest[1][5]" classname="aula_inatel.gorest.GorestRunner" time="1.582"/>
+</testsuite>

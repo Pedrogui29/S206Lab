@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.pkProva.PokeProvaRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.227 s <<< FAILURE! - in aula_inatel.pkProva.PokeProvaRunner
+testPokemon  Time elapsed: 0.227 s  <<< ERROR!
+java.lang.RuntimeException: not found: aula_inatel/pkProva/pkProva.feature
+
