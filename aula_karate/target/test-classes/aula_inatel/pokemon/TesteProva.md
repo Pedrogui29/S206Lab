@@ -1,31 +1,29 @@
 
 #  Teste de UI (User Interface) com Karate💻
 
-Utilizando todo conhecimento obtido durante as aulas, desenvolva nomínimo 6 casos de teste para algumwebsiteda sua escolha (Pelo menos 1 caso devesernegativo). 
+Utilizando todo conhecimento obtido durante as aulas, desenvolva nomínimo 5 casos de teste para algumwebsiteda sua escolha (Pelo menos 1 caso devesernegativo). 
 
 Atente-se para as seguintes informações:
 
 1. Recomenda-sea utilização da ferramenta Karate DSL.
 
-2. Não é permitido utilizar os websites já testados durante as aulas ou presentes no repositório da disciplina (globalsqa e testpages).
-
-3. O exercício deve ser entregue viaGitHub. Com um README adequado que forneça informações relevantes (Ex: Como executar o projeto e obter o relatóriode testes).
+2. Deve obrigatoriamente conter e utilizar do Background
 
 ### Projeto Desenvolvido
-- Desenvolvido um pacote de testes para a API ```REST Countrie```, com isso, os testes abordados foram 
+- Desenvolvido um pacote de testes para a API ```Poke API```, com isso, os testes abordados foram 
     ```
-    ✅  Buscar um país pelo nome
-    ✅  Buscar um país pelo código alfa-3
-    ✅  Buscar um país por código de chamada inexistente
-    ✅  Buscar um país com nome inexistente
-    ✅  Obter todos os países
-    ✅  Obter países que falam Português
+    ✅  Testando informações do Pokémon Charmander.
+    ✅  Testando habilidades de um Pokémon específico.
+    ✅  Testando uma habilidade específica por ID.
+    ✅  Testando a lista de tipos de Pokémon.
+    ✅  Testando a lista de movimentos aprendidos por um Pokémon.
+    ✅  Testando retorno pokemon/ com informações inválidas.
     ```
 
 ### Execução dos testes 🧑‍💻git 
 - Após clonar o repositório, pelo terminal, abra a pasta "aula_karate" e execute o comando a seguir: 
     ```
-    mvn test -Dtest=tdaRunner
+    mvn test -Dtest=PokeRunner
     ```
 - Após a execucao dos testes, o relatório ficará salvo na pasta: 
     ```
