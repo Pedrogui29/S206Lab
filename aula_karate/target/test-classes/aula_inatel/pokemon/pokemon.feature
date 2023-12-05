@@ -62,3 +62,28 @@ Scenario: Testando uma habilidade específica por ID.
     Then status 200
     And match response.name == "chlorophyll"
     And match response.effect_entries[0].short_effect contains "Sonnenlicht"
+
+Scenario: Testando a lista de tipos de Pokémon.
+    Given url url_base
+    And path '/type'
+    When method get
+    Then status 200
+    And match response.results[0].name == "normal"
+    And match response.results[1].name == "fighting"
+
+Scenario: Testando a lista de movimentos aprendidos por um Pokémon.
+    Given url url_base
+    And path '/pokemon/6'  
+    When method get
+    Then status 200
+    And def move_url = response.moves[0].move.url
+    And url move_url
+    When method get
+    Then status 200
+    And match response.name == "mega-punch"
+    And match response.type.name == "normal"
+
+Scenario: Testando retorno pokemon/1 com informações inválidas.
+    Given url '/pokemon/QualidadeSoftware'
+    When method get
+    Then status 404
